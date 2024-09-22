@@ -36,7 +36,7 @@ namespace Asag_DeCasto_AGSC_app
                         break;
 
                     case "b":
-                        Print_Report.Report();
+                        report.Report(students);
                         break;
 
                     case "c":
