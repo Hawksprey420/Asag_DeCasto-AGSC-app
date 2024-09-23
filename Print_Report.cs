@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Asag_DeCasto_ASGC_app
+namespace Asag_DeCastro_ASGC_app
 {
     public class Print_Report
     {
