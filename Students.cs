@@ -13,6 +13,9 @@ namespace Asag_DeCasto_ASGC_app
         public float Quiz1_Grade;
         public float Quiz2_Grade;
         public float Quiz3_Grade;
+        public float Assignment1_Grade;
+        public float Assignment2_Grade;
+        public float Assignment3_Grade;
         public float MidtermExam_Grade;
         public float FinalExam_Grade;
         public char Grade_Letter;

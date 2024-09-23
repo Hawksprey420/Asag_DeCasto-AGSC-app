@@ -21,6 +21,15 @@ public class StudentInfo
             Console.WriteLine($"Please enter the Quiz 3 grade of {student.student_name}");
             student.Quiz3_Grade = float.Parse(Console.ReadLine());
 
+            Console.WriteLine($"Please enter the Assignment 1 grade of {student.student_name}");
+            student.Assignment1_Grade = float.Parse(Console.ReadLine());
+
+            Console.WriteLine($"Please enter the Assignment 2 grade of {student.student_name}");
+            student.Assignment2_Grade = float.Parse(Console.ReadLine());
+
+            Console.WriteLine($"Please enter the Assignment 3 grade of {student.student_name}");
+            student.Assignment3_Grade = float.Parse(Console.ReadLine()) ;
+
             Console.WriteLine($"Please enter the Midterm Exam grade of {student.student_name}");
             student.MidtermExam_Grade = float.Parse(Console.ReadLine());
 
