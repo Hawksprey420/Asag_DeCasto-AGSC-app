@@ -5,7 +5,7 @@ using System.Reflection.Metadata.Ecma335;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Asag_DeCasto_ASGC_app
+namespace Asag_DeCastro_ASGC_app
 {
     public class Students
     {
