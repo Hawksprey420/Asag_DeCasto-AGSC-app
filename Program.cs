@@ -13,8 +13,8 @@ namespace Asag_DeCasto_ASGC_app
 
             while (true) 
             {
-                Console.WriteLine("Hello, World!");
-                Console.WriteLine("This is a test of the AGSC app!");
+                Console.WriteLine("Hello there!");
+                Console.WriteLine("This is the AGSC app!");
 
                 line.LineGeneration();
 
