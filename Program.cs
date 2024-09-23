@@ -1,5 +1,5 @@
 ﻿
-namespace Asag_DeCasto_AGSC_app
+namespace Asag_DeCasto_ASGC_app
 {
     public class Program
     {

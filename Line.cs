@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Asag_DeCasto_AGSC_app
+namespace Asag_DeCasto_ASGC_app
 {
     public class Line
     {
