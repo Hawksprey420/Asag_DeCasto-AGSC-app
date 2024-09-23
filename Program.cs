@@ -51,7 +51,7 @@ namespace Asag_DeCasto_ASGC_app
 
                         if (user_choice == "Y")
                         {
-                            Console.WriteLine("Thanks for using AGSC!");
+                            Console.WriteLine("Thanks for using ASGC!");
                         }
                         else if (user_choice == "N")
                         {

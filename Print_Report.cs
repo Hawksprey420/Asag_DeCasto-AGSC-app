@@ -7,7 +7,7 @@ namespace Asag_DeCasto_ASGC_app
     {
         public float CalculateAverage(Students students)
         {
-            return (students.Quiz1_Grade + students.Quiz2_Grade + students.Quiz3_Grade + students.MidtermExam_Grade + students.FinalExam_Grade) / 5;
+            return (students.Quiz1_Grade + students.Quiz2_Grade + students.Quiz3_Grade + students.Assignment1_Grade + students.Assignment2_Grade + students.Assignment3_Grade + students.MidtermExam_Grade + students.FinalExam_Grade) / 8;
         }
 
         public string ConvertToLetterGrade(float grade)
@@ -28,6 +28,9 @@ namespace Asag_DeCasto_ASGC_app
                 Console.WriteLine($"Quiz 1 - {student.Quiz1_Grade} ({ConvertToLetterGrade(student.Quiz1_Grade)})");
                 Console.WriteLine($"Quiz 2 - {student.Quiz2_Grade} ({ConvertToLetterGrade(student.Quiz2_Grade)})");
                 Console.WriteLine($"Quiz 3 - {student.Quiz3_Grade} ({ConvertToLetterGrade(student.Quiz3_Grade)})");
+                Console.WriteLine($"Assignment 1 - {student.Assignment1_Grade} ({ConvertToLetterGrade(student.Assignment1_Grade)})");
+                Console.WriteLine($"Assignment 2 - {student.Assignment2_Grade} ({ConvertToLetterGrade(student.Assignment2_Grade)})");
+                Console.WriteLine($"Assignment 3 - {student.Assignment3_Grade} ({ConvertToLetterGrade(student.Assignment3_Grade)})");
                 Console.WriteLine($"Mid Term Exam - {student.MidtermExam_Grade} ({ConvertToLetterGrade(student.MidtermExam_Grade)})");
                 Console.WriteLine($"Final Exam - {student.FinalExam_Grade} ({ConvertToLetterGrade(student.FinalExam_Grade)})");
                 line.LineGeneration();
